@@ -31,7 +31,7 @@ let studentone={
     firstName:"mayuri",
     lastName:"kumari",
     age:32,
-    roolno:45
+    rollno:45
 }
 
 //add/create,retrive,update,delete
@@ -40,5 +40,37 @@ let studentone={
 //dot notation
 console.log(studentone.firstName)//mayuri
 console.log(studentone.lastName)//kumari
-console.log(studentone.age)
-console.log(studentone.roll)
+console.log(studentone.age)//32
+console.log(studentone.rollno)//45
+
+//bracket notation
+console.log(studentone["firstName"])//mayuri
+console.log(studentone["lastName"])//kumari
+console.log(studentone["age"])//32
+console.log(studentone["rollno"])//45
+
+//add(bracket notation,dot notation)
+//dot
+studentone.skill="javascript"
+console.log(studentone)
+studentone["language"]="marathi"
+console.log(studentone)
+
+//update(bracket notation,dot notation)
+studentone.firstName="Amol"
+console.log(studentone)
+studentone["age"]=12
+console.log(studentone)
+
+//delete
+delete studentone.firstName
+console.log(studentone)
+delete studentone["skill"]
+console.log(studentone)
+
+
+//CRUID
+//Creat/add
+//retrive
+//update
+//delete
