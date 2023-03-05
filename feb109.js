@@ -38,7 +38,7 @@
 
 // //for loop
 // for(let val of myset){
-//      console.log(myset)
+//      console.log(val)
 // }
 // for(let val1 of newset){
 //     console.log(val1)

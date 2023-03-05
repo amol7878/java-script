@@ -1,12 +1,4 @@
-// let i1=0
-// while(i1<=3){
+let num=[[6,7,8],[77,88,99],[100,200,300]]
+let [[a1,a2,a3],[d1,d2,d3],[s1,s2,s3]]=num
 
-//     console.log(country[i1])
-//     i1++
-// }
-let country=["india","srilanka","pakistan","bangladesh"]
-let i=0
-while(i<=3){
-    console.log(country[i])
-    i++
-}
+console.log(a1)

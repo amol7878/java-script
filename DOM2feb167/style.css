@@ -1,0 +1,26 @@
+h1{
+    color: green;
+}
+p{
+    color: yellow;
+    background-color: green;
+}
+
+.vegetable{
+    background-color: greenyellow;
+    color: red;
+    height: 200px;
+    width: 100px;
+}
+
+.fruit{
+    background-color: greenyellow;
+    color: red;
+    height: 200px;
+    width: 100px;
+}
+
+
+#two{
+    color: blueviolet;
+}
