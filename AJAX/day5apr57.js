@@ -1,4 +1,4 @@
-let dataset = {
+let dataSet ={
     "page": 2,
     "per_page": 6,
     "total": 12,
@@ -53,32 +53,43 @@ let dataset = {
     }
 }
 
-// dataset.data.forEach(function (data) {
-//     //console.log(data)
-//     document.write(`<h1>${data.email}<h1>`)
-//     document.write(`<h1>${data.first_name}<h1>`)
-//     document.write(`<h1>${data.last_name}<h1>`)
-//     document.write(`<h1>${data.id}<h1>`)
-//     document.write(`<img src=${data.avatar}>`)
-// })
 
-let userbutton = document.querySelector('#ar')
-userbutton.addEventListener('click', function () {
+//  dataSet.data.forEach(function(data){
+
+//         //console.log(data)
+//         document.write(`<h1>${data.email}<h1>`)
+//         document.write(`<h1>${data.first_name}<h1>`)
+//         document.write(`<h1>${data.last_name}<h1>`)
+//         document.write(`<h1>${data.id}<h1>`)
+//         document.write(`<img src = ${data.avatar}>`)
+
+//  })
+
+
+let usersButton=document.querySelector('#gu')
+
+usersButton.addEventListener('click',function(){
     fetch('https://reqres.in/api/users?page=2')
-        .then(function (response) {
-            console.log(response)
-            return response.json()
-        })
-        .then(function (response) {
-            console.log(response)
-            response.data.foreEach(data => {
-                //console.log(data)
-                document.write(`<h1>${data.email}<h1>`)
-                document.write(`<h1>${data.first_name}<h1>`)
-                document.write(`<h1>${data.last_name}<h1>`)
-                document.write(`<h1>${data.id}<h1>`)
-                document.write(`<img src=${avatar}>`)
-        })
-   
+    .then(function(response){
+        console.log(response)
+        return response.json()
+    })
+    .then(function(response){
+        console.log(response)
+    
+    response.data.forEach(data=>{
+    //console.log(data)
+    document.write(`<h1>${data.email}<h1>`)
+    document.write(`<h1>${data.first_name}<h1>`)
+    document.write(`<h1>${data.last_name}<h1>`)
+    document.write(`<h1>${data.id}<h1>`)
+    document.write(`<img src = ${data.avatar}>`)
+
+
+    });
+
+
+
+
     })
 })
