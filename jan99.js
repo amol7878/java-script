@@ -41,7 +41,7 @@ console.log(Math.floor(Math.random()*5)+1)//1-5
 
 //  //1-5 number //4
  
-//  //user inpt//3
+//  //user input//3
 
 let randomNumber=Math.floor(Math.random()*5)+1
 console.log(randomNumber)//1-5

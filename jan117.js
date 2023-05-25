@@ -50,7 +50,7 @@ while (userinput != randomnumber) {
     userinput = prompt("guess the number")
     if (userinput == randomnumber) {
         console.log("Guess is correct")
-        //break;
+        break;
     }
     else {
         console.log("Guess is incorrect")

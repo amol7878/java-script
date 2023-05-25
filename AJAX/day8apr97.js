@@ -42,7 +42,7 @@ function rederHtml(user){
 // getUserPageWise(2)
 // .then(function(id){
 //     console.log(id)
-//     return getSingleUserInfo(id)
+//     return SingleUserInfo(id)
 // })
 // .then(function(user){
 //     rederHtml(user)

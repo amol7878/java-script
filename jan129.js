@@ -11,6 +11,7 @@
 // else{
 //     console.log('Guess is incorrect')
 // }
+
 //userinput===randomNumber?console.log("Guess is coreect"):console.log("Guiss is incorrect")
 
 //-------------------------------------------------------//
