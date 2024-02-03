@@ -1,5 +1,5 @@
 // let firstName="Mayuri"
-// // console.log(typeof firstName)
+// console.log(typeof firstName)
 
 // let a="20"
 // console.log(typeof a)

@@ -80,7 +80,7 @@
 //     let b=2
 //     console.log(a+b)//7
 //     console.log(e+f)//30
-    
+
 //     function displayOne(){
 //         let c=30
 //         let d=20
@@ -88,7 +88,7 @@
 //         let f=50
 //         console.log(c+d)//50
 //         console.log(e+f+c+d)//200
-      
+
 //     function displayTwo(){
 //         let e=400
 //         let f=500

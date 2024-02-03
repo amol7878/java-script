@@ -18,6 +18,10 @@
 // let amol=new Teacher()
 // console.log(amol)
 
+
+//====================================================================================
+
+
 // class Student{
 //     constructor(firstName,lastName,age,rollNo){
 //         this.firstName=firstName

@@ -33,7 +33,7 @@ function getSingleuserInfo(id) {
 
 
 async function Getinfo() {
-    let a = await Promise.all([
+    let aa = await Promise.all([
         getSingleuserInfo(1),
         getSingleuserInfo(2),
         getSingleuserInfo(3),
